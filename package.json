@@ -1,0 +1,24 @@
+{
+  "name": "yt-video",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "analyze": "node gemini.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "@google/genai": "^1.12.0",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs-extra": "^11.3.0",
+    "openai": "^5.11.0",
+    "sharp": "^0.34.3"
+  }
+}

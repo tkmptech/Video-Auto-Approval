@@ -1,0 +1,8 @@
+node_modules/
+dist/
+
+.env
+videos/
+*lock.json
+*.log
+*.tmp
